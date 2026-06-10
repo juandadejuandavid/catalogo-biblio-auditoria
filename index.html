@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Showcase — Catálogo Bibliotecas (Comunidad de Madrid)</title>
+    <link rel="stylesheet" href="styles/biblios-colors-showcase.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/v4-shims.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>Showcase OPAC — Bibliotecas Comunidad de Madrid</h1>
+        <p>
+          Referencia del catálogo público (página de novedades ACC=101):
+          <a
+            href="https://gestiona.comunidad.madrid/biblio_publicas/cgi-bin/abnetopac/O9xDftO8fWMoka92h3g14WHPVka?ACC=101"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Catálogo de Bibliotecas — Comunidad de Madrid</a
+          >.
+        </p>
+      </header>
+
+      <div class="tabs">
+        <div class="tabs__bar" role="tablist" aria-label="Secciones del showcase">
+          <button
+            type="button"
+            class="tabs__tab"
+            role="tab"
+            id="tab-i"
+            aria-controls="panel-i"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            Iconos 
+          </button>
+          <button
+            type="button"
+            class="tabs__tab"
+            role="tab"
+            id="tab-colors"
+            aria-controls="panel-colors"
+            aria-selected="true"
+          >
+            Colores
+          </button>
+          <button
+            type="button"
+            class="tabs__tab"
+            role="tab"
+            id="tab-typography"
+            aria-controls="panel-typography"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            Tipografía
+          </button>
+          <button
+            type="button"
+            class="tabs__tab"
+            role="tab"
+            id="tab-buttons"
+            aria-controls="panel-buttons"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            Botones
+          </button>
+          
+        </div>
+
+        <div
+          class="tabs__panel"
+          id="panel-colors"
+          role="tabpanel"
+          aria-labelledby="tab-colors"
+        >
+      <p class="intro">
+        Cada ficha muestra el valor en hexadecimal derivado del RGB/RGBA
+        original devuelto por el navegador. Las muestras con transparencia se
+        muestran sobre un patrón en damero para que se vea el efecto alpha.
+      </p>
+
+      <section class="section" aria-labelledby="sec-neutrals">
+        <h2 id="sec-neutrals" class="section-title">Neutros y grises</h2>
+        <div class="grid" role="list">
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #222222"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#222222</span>
+              <span class="swatch__src">rgb(34, 34, 34)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #000000"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#000000</span>
+              <span class="swatch__src">rgb(0, 0, 0)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #444444"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#444444</span>
+              <span class="swatch__src">rgb(68, 68, 68)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="border: 1px solid #ddd; background: #ffffff"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#FFFFFF</span>
+              <span class="swatch__src">rgb(255, 255, 255)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #42474a"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#42474A</span>
+              <span class="swatch__src">rgb(66, 71, 74)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #3c3c3c"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#3C3C3C</span>
+              <span class="swatch__src">rgb(60, 60, 60)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #999999"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#999999</span>
+              <span class="swatch__src">rgb(153, 153, 153)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #9c9c9c"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#9C9C9C</span>
+              <span class="swatch__src">rgb(156, 156, 156)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #cccccc"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#CCCCCC</span>
+              <span class="swatch__src">rgb(204, 204, 204)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #dddddd"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#DDDDDD</span>
+              <span class="swatch__src">rgb(221, 221, 221)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #ededed"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#EDEDED</span>
+              <span class="swatch__src">rgb(237, 237, 237)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #f4f4f4"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#F4F4F4</span>
+              <span class="swatch__src">rgb(244, 244, 244)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #f7f7f8"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#F7F7F8</span>
+              <span class="swatch__src">rgb(247, 247, 248)</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="sec-blue">
+        <h2 id="sec-blue" class="section-title">Azules (marca / enlaces)</h2>
+        <div class="grid" role="list">
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #031784"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#031784</span>
+              <span class="swatch__src">rgb(3, 23, 132)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #145b8f"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#145B8F</span>
+              <span class="swatch__src">rgb(20, 91, 143)</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="sec-red">
+        <h2 id="sec-red" class="section-title">Rojos y acentos</h2>
+        <div class="grid" role="list">
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #54070e"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#54070E</span>
+              <span class="swatch__src">rgb(84, 7, 14)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #9d0000"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#9D0000</span>
+              <span class="swatch__src">rgb(157, 0, 0)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #ba0519"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#BA0519</span>
+              <span class="swatch__src">rgb(186, 5, 25)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #b6222a"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#B6222A</span>
+              <span class="swatch__src">rgb(182, 34, 42)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #e30613"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#E30613</span>
+              <span class="swatch__src">rgb(227, 6, 19)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #ff4757"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#FF4757</span>
+              <span class="swatch__src">rgb(255, 71, 87)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div class="swatch__tile" style="background: #fff1f2"></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#FFF1F2</span>
+              <span class="swatch__src">rgb(255, 241, 242)</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="sec-alpha">
+        <h2 id="sec-alpha" class="section-title">
+          Transparencias y superposiciones
+        </h2>
+        <div class="grid swatches--translucent" role="list">
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#00000000</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.12)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#0000001F</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.12)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.14)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#00000024</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.14)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.15)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#00000026</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.15)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.16)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#00000029</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.16)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.18)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#0000002E</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.18)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.2)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#00000033</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.2)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.3)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#0000004D</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.3)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.5)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#00000080</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.5)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(0, 0, 0, 0.83)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#000000D4</span>
+              <span class="swatch__src">rgba(0, 0, 0, 0.83)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(15, 15, 15, 0.3)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#0F0F0F4D</span>
+              <span class="swatch__src">rgba(15, 15, 15, 0.3)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(10, 10, 10, 0.65)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#0A0A0AA6</span>
+              <span class="swatch__src">rgba(10, 10, 10, 0.65)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(20, 91, 143, 0.94)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#145B8FF0</span>
+              <span class="swatch__src">rgba(20, 91, 143, 0.94)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(186, 5, 25, 0.91)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#BA0519E8</span>
+              <span class="swatch__src">rgba(186, 5, 25, 0.91)</span>
+            </div>
+          </article>
+          <article class="swatch" role="listitem">
+            <div
+              class="swatch__tile"
+              style="background-color: rgba(135, 135, 135, 0.3)"
+            ></div>
+            <div class="swatch__meta">
+              <span class="swatch__hex">#8787874D</span>
+              <span class="swatch__src">rgba(135, 135, 135, 0.3)</span>
+            </div>
+          </article>
+        </div>
+      </section>
+        </div>
+
+        <div
+          class="tabs__panel"
+          id="panel-typography"
+          role="tabpanel"
+          aria-labelledby="tab-typography"
+          hidden
+        >
+          <p class="intro">
+            Estilos de texto del OPAC AbsysNet (Comunidad de Madrid), extraídos
+            de las hojas de estilo servidas en
+            <code>styleX.css</code>, <code>theme.css</code>,
+            <code>start.css</code> y <code>font-awesome.css</code>
+            (<time datetime="2026-06-04">junio 2026</time>). La URL del catálogo
+            requiere un parámetro de acción (p. ej.
+            <code>?ACC=101</code>); sin él solo se muestra
+            <strong>«ACCION NO DEFINIDA»</strong> con Times New Roman 16px.
+          </p>
+
+          <section class="section" aria-labelledby="sec-type-base">
+            <h2 id="sec-type-base" class="section-title">Base y cuerpo</h2>
+            <div class="type-grid">
+              <article class="type-card">
+                <p
+                  class="type-sample type-sample--opac"
+                  style="
+                    font-family: Roboto, -apple-system, BlinkMacSystemFont,
+                      'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Helvetica Neue',
+                      Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: #222;
+                  "
+                >
+                  Texto de cuerpo — El veloz murciélago hindú comía feliz
+                  cardillo y kiwi.
+                </p>
+                <dl class="type-meta">
+                  <div>
+                    <dt>Selector</dt>
+                    <dd><code>html</code>, <code>body</code></dd>
+                  </div>
+                  <div>
+                    <dt>Familia</dt>
+                    <dd><code>RobotoStack</code> + system UI stack</dd>
+                  </div>
+                  <div>
+                    <dt>Tamaño / peso</dt>
+                    <dd>14px · 400</dd>
+                  </div>
+                  <div>
+                    <dt>Interlineado</dt>
+                    <dd>20px (html); 1.15 en normalize</dd>
+                  </div>
+                  <div>
+                    <dt>Color</dt>
+                    <dd><span class="type-swatch-inline" style="background: #222"></span> #222</dd>
+                  </div>
+                </dl>
+              </article>
+              <article class="type-card type-card--muted">
+                <p
+                  class="type-sample"
+                  style="font-family: 'Times New Roman', Times, serif; font-size: 16px; color: #000"
+                >
+                  ACCION NO DEFINIDA
+                </p>
+                <dl class="type-meta">
+                  <div>
+                    <dt>Contexto</dt>
+                    <dd>URL sin <code>ACC=</code> (error del servidor)</dd>
+                  </div>
+                  <div>
+                    <dt>Familia</dt>
+                    <dd>Times New Roman (predeterminado del navegador)</dd>
+                  </div>
+                  <div>
+                    <dt>Tamaño</dt>
+                    <dd>16px</dd>
+                  </div>
+                </dl>
+              </article>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-families">
+            <h2 id="sec-type-families" class="section-title">Familias tipográficas</h2>
+            <div class="type-table-wrap">
+              <table class="type-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Rol</th>
+                    <th scope="col">Familia CSS</th>
+                    <th scope="col">Muestra</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>UI, títulos, formularios</td>
+                    <td><code>RobotoStack</code></td>
+                    <td class="type-table__sample type-sample--opac">
+                      Bibliotecas Comunidad de Madrid
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Iconos sólidos / regular</td>
+                    <td><code>Font Awesome 5 Free</code></td>
+                    <td class="type-table__sample">
+                      <i class="fas fa-book-open" aria-hidden="true"></i>
+                      <i class="far fa-newspaper" aria-hidden="true"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Iconos marcas</td>
+                    <td><code>Font Awesome 5 Brands</code></td>
+                    <td class="type-table__sample">
+                      <i class="fab fa-accessible-icon" aria-hidden="true"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Código / pre</td>
+                    <td><code>monospace</code></td>
+                    <td class="type-table__sample" style="font-family: monospace">
+                      pre { font-size: 1em; }
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="type-note">
+              Pesos Roboto cargados vía <code>@font-face</code>: 100, 300, 400,
+              500, 700, 900 (cada uno con variante itálica).
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-headings">
+            <h2 id="sec-type-headings" class="section-title">Encabezados</h2>
+            <div class="type-headings">
+              <div class="type-headings__row">
+                <h1 class="type-headings__h type-headings__h--opac-h1">Título h1</h1>
+                <code class="type-headings__spec">2em · peso heredado</code>
+              </div>
+              <div class="type-headings__row">
+                <h2 class="type-headings__h type-headings__h--opac-h2">Título h2</h2>
+                <code class="type-headings__spec">1.8em · 500 · line-height 1.3em</code>
+              </div>
+              <div class="type-headings__row type-headings__row--dark">
+                <h3 class="type-headings__h type-headings__h--opac-h3">Título h3</h3>
+                <code class="type-headings__spec">1.5em · #fff · line-height 1.1em</code>
+              </div>
+              <div class="type-headings__row type-headings__row--dark">
+                <h4 class="type-headings__h type-headings__h--opac-h4">Título h4</h4>
+                <code class="type-headings__spec">1.6em · 500 · #fff · line-height 1.3em</code>
+              </div>
+              <div class="type-headings__row">
+                <p class="type-headings__label">Inicio (.start--header)</p>
+                <p class="type-headings__h type-headings__h--start-header">
+                  Cabecera de página de inicio
+                </p>
+                <code class="type-headings__spec">2em · 400 · text-align left</code>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-sizes">
+            <h2 id="sec-type-sizes" class="section-title">
+              Escala de tamaños <span class="section-tag">font-size</span>
+            </h2>
+            <div class="type-table-wrap">
+              <table class="type-table type-table--compact">
+                <thead>
+                  <tr>
+                    <th scope="col">Valor</th>
+                    <th scope="col">Uso típico en OPAC</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>12px</code>, <code>13px</code></td>
+                    <td>Migas de pan, metadatos pequeños</td>
+                  </tr>
+                  <tr>
+                    <td><code>14px</code> (raíz)</td>
+                    <td>Base <code>html</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>16px</code>, <code>18px</code></td>
+                    <td>Primer enlace breadcrumb, inputs</td>
+                  </tr>
+                  <tr>
+                    <td><code>.6em</code> – <code>.95em</code></td>
+                    <td>Chips, pestañas, errores de formulario, carrusel</td>
+                  </tr>
+                  <tr>
+                    <td><code>1em</code> – <code>1.2em</code></td>
+                    <td>Fichas documento (.c-docs_title 1.2em)</td>
+                  </tr>
+                  <tr>
+                    <td><code>1.4em</code> – <code>1.8em</code></td>
+                    <td>Agendas, carrusel, h2</td>
+                  </tr>
+                  <tr>
+                    <td><code>2em</code></td>
+                    <td>h1, cabecera de inicio</td>
+                  </tr>
+                  <tr>
+                    <td><code>1.333em</code> (<code>.fa-lg</code>)</td>
+                    <td>Iconos Font Awesome grandes</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-weights">
+            <h2 id="sec-type-weights" class="section-title">Pesos</h2>
+            <div class="type-weights">
+              <p class="type-weights__item" style="font-weight: 300">300 — Light</p>
+              <p class="type-weights__item" style="font-weight: 400">400 — Regular (cuerpo, menú)</p>
+              <p class="type-weights__item" style="font-weight: 500">500 — Medium (h2, chips, autor)</p>
+              <p class="type-weights__item" style="font-weight: 600">600 — Semibold</p>
+              <p class="type-weights__item" style="font-weight: 700">700 — Bold</p>
+              <p class="type-weights__item" style="font-weight: 900">900 — Black / iconos FA</p>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-colors">
+            <h2 id="sec-type-colors" class="section-title">
+              Colores de texto <span class="section-tag">color</span>
+            </h2>
+            <div class="grid type-color-grid">
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #222; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#222222</span>
+                  <span class="swatch__src">body, texto principal</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #031784; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#031784</span>
+                  <span class="swatch__src">.c-docs_title, botones azules</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #145b8f; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#145B8F</span>
+                  <span class="swatch__src">Pestañas, iconos inicio</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #001a96; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#001A96</span>
+                  <span class="swatch__src">Pestaña activa</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #2088c2; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#2088C2</span>
+                  <span class="swatch__src">Hover chips / flat blue</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #bb0a0a; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#BB0A0A</span>
+                  <span class="swatch__src">.c-docs_author</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #ac0404; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#AC0404</span>
+                  <span class="swatch__src">.c-form--indexError</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #fff; background: #000">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#FFFFFF</span>
+                  <span class="swatch__src">Cabecera, h3/h4, botones</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #2ed573; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#2ED573</span>
+                  <span class="swatch__src">.c-alert_success</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #ff4757; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#FF4757</span>
+                  <span class="swatch__src">.c-alert_danger</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #ffa502; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#FFA502</span>
+                  <span class="swatch__src">.c-alert_warning</span>
+                </div>
+              </article>
+              <article class="swatch">
+                <div class="swatch__tile type-color-tile" style="color: #71c9ff; background: #fff">
+                  <span>Aa</span>
+                </div>
+                <div class="swatch__meta">
+                  <span class="swatch__hex">#71C9FF</span>
+                  <span class="swatch__src">.c-alert_info</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-components">
+            <h2 id="sec-type-components" class="section-title">Componentes</h2>
+            <div class="type-grid">
+              <article class="type-card">
+                <p
+                  class="type-sample type-sample--opac"
+                  style="font-size: 13px; line-height: 40px; text-decoration: none; color: #222"
+                >
+                  Inicio › Búsqueda › Resultados
+                </p>
+                <dl class="type-meta">
+                  <div>
+                    <dt>Componente</dt>
+                    <dd><code>.c-breadCrumb</code></dd>
+                  </div>
+                  <div>
+                    <dt>Enlaces</dt>
+                    <dd>13px / 40px line-height; primer enlace 18px</dd>
+                  </div>
+                </dl>
+              </article>
+              <article class="type-card">
+                <span
+                  class="type-chip-demo"
+                  style="font-size: 0.9em; font-weight: 500; line-height: 1.5em; color: #145b8f"
+                  >Etiqueta chip</span
+                >
+                <dl class="type-meta">
+                  <div>
+                    <dt>Componente</dt>
+                    <dd><code>.c-chip</code></dd>
+                  </div>
+                  <div>
+                    <dt>Estilo</dt>
+                    <dd>.9em · 500 · line-height 1.5em</dd>
+                  </div>
+                </dl>
+              </article>
+              <article class="type-card">
+                <p class="type-sample type-sample--opac" style="line-height: 1.4em; padding: 0.5rem 0">
+                  <span style="color: #031784; font-size: 1.2em; display: block">Título del documento</span>
+                  <span style="color: #bb0a0a; font-size: 1em; font-weight: 500">Autor, Apellido</span>
+                </p>
+                <dl class="type-meta">
+                  <div>
+                    <dt>Componente</dt>
+                    <dd><code>.c-docs_title</code>, <code>.c-docs_author</code></dd>
+                  </div>
+                </dl>
+              </article>
+              <article class="type-card">
+                <p
+                  class="type-sample type-sample--opac"
+                  style="font-size: 0.9em; font-weight: 500; line-height: 1.5em; color: #000"
+                >
+                  Pestaña de colección
+                </p>
+                <dl class="type-meta">
+                  <div>
+                    <dt>Componente</dt>
+                    <dd><code>.start_tabs--theme2</code> (inactiva)</dd>
+                  </div>
+                </dl>
+              </article>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-type-misc">
+            <h2 id="sec-type-misc" class="section-title">Alineación, decoración y transformación</h2>
+            <div class="type-table-wrap">
+              <table class="type-table type-table--compact">
+                <thead>
+                  <tr>
+                    <th scope="col">Propiedad</th>
+                    <th scope="col">Valores en OPAC</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>text-align</code></td>
+                    <td><code>left</code>, <code>right</code>, <code>center</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>text-decoration</code></td>
+                    <td><code>none</code>, <code>underline</code>, <code>underline dotted</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>text-transform</code></td>
+                    <td><code>none</code>, <code>uppercase</code>, <code>lowercase</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>line-height</code></td>
+                    <td>
+                      <code>1</code>, <code>1.15</code>, <code>1.4em</code>, <code>1.5</code>,
+                      <code>1.5em</code>, <code>20px</code>, <code>40px</code>…
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>letter-spacing</code></td>
+                    <td>No definido en el tema principal</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+
+        <div
+          class="tabs__panel"
+          id="panel-buttons"
+          role="tabpanel"
+          aria-labelledby="tab-buttons"
+          hidden
+        >
+          <p class="intro">
+            Variantes del componente <code>.c-btn</code> del OPAC (hoja
+            <code>styleX.css</code>, Comunidad de Madrid). Las muestras usan las
+            mismas clases que el catálogo; pasa el cursor para ver el estado
+            hover. Fuente: página <code>?ACC=101</code>,
+            <time datetime="2026-06-04">junio 2026</time>.
+          </p>
+
+          <div class="showcase-opac">
+            <section class="section" aria-labelledby="sec-btn-base">
+              <h2 id="sec-btn-base" class="section-title">Base <code>.c-btn</code></h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn">Botón base</button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">&lt;button class="c-btn"&gt;</pre>
+                    <p class="btn-card__spec">
+                      transparent · sin borde · padding 10px 15px · line-height
+                      1.4em
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-layout">
+              <h2 id="sec-btn-layout" class="section-title">
+                Modificadores de layout
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview btn-card__preview--block">
+                    <button type="button" class="c-btn c-btn--basic c-btn--100">
+                      Ancho 100%
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn c-btn--100</pre>
+                    <p class="btn-card__spec">width: 100%</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--basic c-btn--bold">
+                      Texto medium
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--bold</pre>
+                    <p class="btn-card__spec">font-weight: 500</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button
+                      type="button"
+                      class="c-btn c-btn--basic c-btn--rounded"
+                    >
+                      Esquinas redondeadas
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--rounded</pre>
+                    <p class="btn-card__spec">border-radius: 8px</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-basic">
+              <h2 id="sec-btn-basic" class="section-title">
+                Basic <span class="section-tag">ghost / texto</span>
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--basic">Basic</button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn c-btn--basic</pre>
+                    <p class="btn-card__spec">color #222 · hover fondo #ededed</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--basic--blue">
+                      Basic azul
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--basic--blue</pre>
+                    <p class="btn-card__spec">color #031784 · hover #ededed</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--basic--midGrey">
+                      Basic gris
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--basic--midGrey</pre>
+                    <p class="btn-card__spec">color #999</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--basic--warn">
+                      Basic aviso
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--basic--warn</pre>
+                    <p class="btn-card__spec">color #bb0a0a</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-flat">
+              <h2 id="sec-btn-flat" class="section-title">
+                Flat <span class="section-tag">relleno</span>
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--flat--blue">
+                      Flat azul
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--flat--blue</pre>
+                    <p class="btn-card__spec">
+                      #145b8f · hover #2088c2 · texto #fff
+                    </p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--flat--dark">
+                      Flat oscuro
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--flat--dark</pre>
+                    <p class="btn-card__spec">fondo #444 · hover #ededed</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--flat--grey">
+                      Flat gris
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--flat--grey</pre>
+                    <p class="btn-card__spec">fondo #ededed · borde #999</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-normal">
+              <h2 id="sec-btn-normal" class="section-title">
+                Normal <span class="section-tag">enlace</span>
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <a href="#" class="c-btn c-btn--normal--blue" onclick="return false"
+                      >Normal azul</a
+                    >
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--normal--blue</pre>
+                    <p class="btn-card__spec">#031784 · hover underline</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <a href="#" class="c-btn c-btn--normal--darkGrey" onclick="return false"
+                      >Normal gris oscuro</a
+                    >
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--normal--darkGrey</pre>
+                    <p class="btn-card__spec">color #444</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-stroked">
+              <h2 id="sec-btn-stroked" class="section-title">
+                Stroked <span class="section-tag">contorno</span>
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--stroked--blue">
+                      Stroked azul
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--stroked--blue</pre>
+                    <p class="btn-card__spec">borde #031784 · hover #ededed</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-btn c-btn--stroked--grey">
+                      Stroked gris
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--stroked--grey</pre>
+                    <p class="btn-card__spec">borde #999 · texto #000</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button
+                      type="button"
+                      class="c-btn c-btn--stroked--disabled--grey"
+                      disabled
+                    >
+                      Stroked deshabilitado
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--stroked--disabled--grey</pre>
+                    <p class="btn-card__spec">color #595959 · not-allowed</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-disabled">
+              <h2 id="sec-btn-disabled" class="section-title">Deshabilitado</h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button
+                      type="button"
+                      class="c-btn c-btn--disabled c-btn--rounded"
+                      disabled
+                    >
+                      Disabled
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--disabled</pre>
+                    <p class="btn-card__spec">color hsla(0,0%,6%,.3)</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button
+                      type="button"
+                      class="c-btn c-btn--disabled--grey"
+                      disabled
+                    >
+                      Disabled gris
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--disabled--grey</pre>
+                    <p class="btn-card__spec">color #595959</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-combos">
+              <h2 id="sec-btn-combos" class="section-title">
+                Combinaciones en la página <code>ACC=101</code>
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview btn-card__preview--block">
+                    <button
+                      type="submit"
+                      class="c-btn c-btn--flat--blue c-btn--100 c-btn--rounded"
+                    >
+                      Conectar
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <span class="btn-card__badge">×1</span>
+                    <pre class="btn-card__markup">c-btn--flat--blue c-btn--100 c-btn--rounded</pre>
+                    <p class="btn-card__spec">Login «Conectar»</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button
+                      type="button"
+                      class="c-btn c-btn--stroked--grey c-btn--rounded"
+                    >
+                      Acceso identificado
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <span class="btn-card__badge">×1</span>
+                    <pre class="btn-card__markup">c-btn--stroked--grey c-btn--rounded</pre>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="submit" class="c-btn c-btn--stroked--blue">
+                      Enviar
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <span class="btn-card__badge">×1</span>
+                    <pre class="btn-card__markup">c-btn--stroked--blue</pre>
+                    <p class="btn-card__spec">Búsqueda</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview btn-card__preview--block">
+                    <button
+                      type="button"
+                      class="c-btn c-btn--basic c-btn--bold c-btn--100"
+                    >
+                      Acordeón enlaces
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <span class="btn-card__badge">×4</span>
+                    <pre class="btn-card__markup">c-btn--basic c-btn--bold c-btn--100</pre>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <a
+                      href="#"
+                      class="c-btn c-btn--basic--blue c-btn--bold c-btn--rounded"
+                      onclick="return false"
+                      >Novedades</a
+                    >
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--basic--blue c-btn--bold c-btn--rounded</pre>
+                    <p class="btn-card__spec">CTA inicio</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview btn-card__preview--dark">
+                    <a
+                      href="#"
+                      class="c-btn c-btn--flat--dark c-btn--bold c-btn--rounded"
+                      onclick="return false"
+                      >Portal del lector</a
+                    >
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-btn--flat--dark c-btn--bold c-btn--rounded</pre>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="sec-btn-related">
+              <h2 id="sec-btn-related" class="section-title">
+                Controles relacionados
+              </h2>
+              <div class="btn-grid">
+                <article class="btn-card">
+                  <div class="btn-card__preview">
+                    <button type="button" class="c-chip c-chip--flat--blue">
+                      ver más
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-chip c-chip--flat--blue</pre>
+                    <p class="btn-card__spec">Píldora · .9em · radius 15px</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview btn-card__preview--search">
+                    <button type="button" class="c-search_buttonSubmit c-btn c-btn--basic">
+                      <i class="fas fa-search" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">c-search_buttonSubmit</pre>
+                    <p class="btn-card__spec">fondo #001a96 · texto #fff</p>
+                  </div>
+                </article>
+                <article class="btn-card">
+                  <div class="btn-card__preview btn-card__preview--dark">
+                    <button type="button" class="head_logOut c-btn">
+                      Cerrar sesión
+                    </button>
+                  </div>
+                  <div class="btn-card__body">
+                    <pre class="btn-card__markup">head_logOut c-btn</pre>
+                    <p class="btn-card__spec">fondo #bb0a0a · texto #fff</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div
+          class="tabs__panel"
+          id="panel-i"
+          role="tabpanel"
+          aria-labelledby="tab-i"
+          hidden
+        >
+          <p class="intro">
+            Etiquetas <code>&lt;i&gt;</code> extraídas del HTML de la misma URL
+            del encabezado (captura local), en orden de aparición en el DOM.
+            <time datetime="2026-05-07">7 de mayo de 2026</time>: 76 nodos y 43
+            variantes distintas. Las vistas previas usan Font Awesome vía CDN
+            para aproximar el OPAC oficial.
+          </p>
+
+          <section class="section" aria-labelledby="sec-i-fas">
+            <h2 id="sec-i-fas" class="section-title">
+              Font Awesome — sólidos (<span class="section-tag">fas</span>)
+            </h2>
+            <div class="i-grid">
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-external-link-alt fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×13</span>
+                  <span class="i-card__indices">Orden en página: 14, 16, 18, 20, 35, 36, 37, 46, 50, 51, 52, 57, 62</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-external-link-alt fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-chevron-right fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×7</span>
+                  <span class="i-card__indices">Orden en página: 29, 30, 31, 32, 33, 44, 45</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-chevron-right fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-angle-up fa-fw fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×4</span>
+                  <span class="i-card__indices">Orden en página: 63, 64, 65, 66</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-angle-up fa-fw fa-lg" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-times fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×4</span>
+                  <span class="i-card__indices">Orden en página: 1, 21, 23, 49</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-times fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-circle fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×3</span>
+                  <span class="i-card__indices">Orden en página: 13, 15, 17</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-circle fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="c-accordion_h1 fas fa-link" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 53, 58</span>
+                  <pre class="i-card__markup">&lt;i class="c-accordion_h1 fas fa-link" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-angle-down fa-fw fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 54, 59</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-angle-down fa-fw fa-lg" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-bars fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 22, 27</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-bars fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-caret-right l-in-bl--md" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 55, 60</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-caret-right l-in-bl--md" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 28, 34</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-chevron-down" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-plus-circle fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 56, 61</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-plus-circle fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i aria-hidden="true" class="fas fa-microphone fa-fw fa-lg"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 42</span>
+                  <pre class="i-card__markup">&lt;i aria-hidden="true" class="fas fa-microphone fa-fw fa-lg"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-angle-left fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 47</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-angle-left fa-lg" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-angle-right fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 48</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-angle-right fa-lg" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 5</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-book-open fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-bus fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 11</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-bus fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-caret-down fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 41</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-caret-down fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-clipboard-list fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 7</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-clipboard-list fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 6</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-comments fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-exclamation-circle fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 4</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-exclamation-circle fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 71</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-exclamation-circle" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-eye inputPassBtn--on js-inputPassBtn--on" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 25</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-eye inputPassBtn--on js-inputPassBtn--on" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-eye-slash inputPassBtn--off js-inputPassBtn--off js-dn" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 26</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-eye-slash inputPassBtn--off js-inputPassBtn--off js-dn" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-home fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 2</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-home fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 24</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-info-circle fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 75</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-link" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-map-marked-alt fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 67</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-map-marked-alt fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-rocket fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 8</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-rocket fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-search fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 43</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-search fa-lg" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-search-plus fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 3</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-search-plus fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 70</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-search" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-shapes fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 10</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-shapes fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 73</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-star" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-subway fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 12</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-subway fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fas fa-university fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 40</span>
+                  <pre class="i-card__markup">&lt;i class="fas fa-university fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-i-far">
+            <h2 id="sec-i-far" class="section-title">
+              Font Awesome — regular (<span class="section-tag">far</span>)
+            </h2>
+            <div class="i-grid">
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-question-circle fa-fw fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×2</span>
+                  <span class="i-card__indices">Orden en página: 19, 38</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-question-circle fa-fw fa-lg" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-bookmark fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 39</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-bookmark fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 74</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-calendar-alt" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-copyright" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 69</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-copyright" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-envelope fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 68</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-envelope fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-images" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 72</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-images" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="far fa-newspaper fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 9</span>
+                  <pre class="i-card__markup">&lt;i class="far fa-newspaper fa-fw" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="section" aria-labelledby="sec-i-legacy">
+            <h2 id="sec-i-legacy" class="section-title">
+              Legado (<span class="section-tag">fa</span> sin prefijo sólido/regular)
+            </h2>
+            <div class="i-grid">
+              <article class="i-card">
+                <div class="i-card__preview" aria-hidden="true">
+                  <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                </div>
+                <div class="i-card__body">
+                  <span class="i-card__badge">×1</span>
+                  <span class="i-card__indices">Orden en página: 76</span>
+                  <pre class="i-card__markup">&lt;i class="fa fa-arrow-circle-up" aria-hidden="true"&gt;&lt;/i&gt;</pre>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Showcase estático: Colores, Tipografía, Botones y
+        <code>&lt;i&gt;</code>. Abre <code>biblios-colors-showcase.html</code> en
+        el navegador (misma carpeta que el CSS).
+      </footer>
+    </div>
+    <script>
+      (function () {
+        var tabColors = document.getElementById("tab-colors");
+        var tabTypography = document.getElementById("tab-typography");
+        var tabButtons = document.getElementById("tab-buttons");
+        var tabI = document.getElementById("tab-i");
+        var panelColors = document.getElementById("panel-colors");
+        var panelTypography = document.getElementById("panel-typography");
+        var panelButtons = document.getElementById("panel-buttons");
+        var panelI = document.getElementById("panel-i");
+        if (
+          !tabColors ||
+          !tabTypography ||
+          !tabButtons ||
+          !tabI ||
+          !panelColors ||
+          !panelTypography ||
+          !panelButtons ||
+          !panelI
+        )
+          return;
+
+        var tabs = [tabColors, tabTypography, tabButtons, tabI];
+        var panels = [panelColors, panelTypography, panelButtons, panelI];
+
+        function activate(index) {
+          tabs.forEach(function (t, i) {
+            var on = i === index;
+            t.setAttribute("aria-selected", on ? "true" : "false");
+            t.tabIndex = on ? 0 : -1;
+            panels[i].hidden = !on;
+          });
+        }
+
+        tabs.forEach(function (tab, index) {
+          tab.addEventListener("click", function () {
+            activate(index);
+            tab.focus();
+          });
+          tab.addEventListener("keydown", function (e) {
+            if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+              e.preventDefault();
+              var next =
+                e.key === "ArrowRight"
+                  ? (index + 1) % tabs.length
+                  : (index - 1 + tabs.length) % tabs.length;
+              activate(next);
+              tabs[next].focus();
+            }
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

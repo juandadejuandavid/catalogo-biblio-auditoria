@@ -1,0 +1,280 @@
+﻿{
+  "report": {
+    "base": {
+      "background-color": "transparent",
+      "border": "0",
+      "cursor": "pointer",
+      "line-height": "1.4em",
+      "padding": "10px 15px",
+      "transition": "all .2s ease"
+    },
+    "variants": {
+      "c-btn--100": {
+        "default": {
+          "width": "100%"
+        },
+        "ruleCount": 1,
+        "exampleSelector": ".c-btn--100"
+      },
+      "c-btn--basic": {
+        "default": {
+          "color": "#222"
+        },
+        "hover": {
+          "background-color": "#ededed!important"
+        },
+        "visited": {
+          "color": "#222"
+        },
+        "ruleCount": 13,
+        "exampleSelector": ".c-btn--basic"
+      },
+      "c-btn--basic--blue": {
+        "default": {
+          "background-color": "transparent",
+          "color": "#031784",
+          "transition": "background .8s"
+        },
+        "hover": {
+          "background": "#ededed!important"
+        },
+        "visited": {
+          "color": "#031784"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--basic--blue"
+      },
+      "c-btn--basic--midGrey": {
+        "default": {
+          "color": "#999"
+        },
+        "hover": {
+          "background-color": "#ededed!important"
+        },
+        "visited": {
+          "color": "#999"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--basic--midGrey"
+      },
+      "c-btn--basic--warn": {
+        "default": {
+          "color": "#bb0a0a"
+        },
+        "hover": {
+          "background-color": "#ededed!important",
+          "color": "#bb0a0a"
+        },
+        "visited": {
+          "color": "#bb0a0a"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--basic--warn"
+      },
+      "c-btn--bold": {
+        "default": {
+          "font-weight": "500"
+        },
+        "ruleCount": 1,
+        "exampleSelector": ".c-btn--bold"
+      },
+      "c-btn--disabled": {
+        "default": {
+          "color": "hsla(0,0%,6%,.3)",
+          "cursor": "not-allowed"
+        },
+        "hover": {
+          "background-color": "transparent!important"
+        },
+        "visited": {
+          "color": "#595959"
+        },
+        "ruleCount": 4,
+        "exampleSelector": ".c-btn--disabled"
+      },
+      "c-btn--disabled--grey": {
+        "default": {
+          "color": "#595959",
+          "cursor": "not-allowed"
+        },
+        "visited": {
+          "color": "#595959"
+        },
+        "ruleCount": 2,
+        "exampleSelector": ".c-btn--disabled--grey"
+      },
+      "c-btn--flat--blue": {
+        "default": {
+          "background-color": "#145b8f",
+          "border": "1px solid #145b8f",
+          "color": "#fff",
+          "padding": "9px 14px"
+        },
+        "hover": {
+          "background-color": "#2088c2!important",
+          "border": "1px solid #2088c2",
+          "color": "#fff"
+        },
+        "visited": {
+          "color": "#fff"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--flat--blue"
+      },
+      "c-btn--flat--dark": {
+        "default": {
+          "background-color": "#444",
+          "border": "1px solid transparent",
+          "color": "#fff"
+        },
+        "hover": {
+          "background-color": "#ededed!important",
+          "border": "1px solid #999",
+          "color": "#000!important"
+        },
+        "visited": {
+          "color": "#fff"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--flat--dark"
+      },
+      "c-btn--flat--grey": {
+        "default": {
+          "background-color": "#ededed",
+          "border": "1px solid #999",
+          "color": "#000",
+          "padding": "9px 14px"
+        },
+        "hover": {
+          "background-color": "#999!important",
+          "color": "#000!important"
+        },
+        "visited": {
+          "color": "#000"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--flat--grey"
+      },
+      "c-btn--normal--blue": {
+        "default": {
+          "color": "#031784",
+          "text-decoration": "none"
+        },
+        "hover": {
+          "text-decoration": "underline"
+        },
+        "visited": {
+          "color": "#031784"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--normal--blue"
+      },
+      "c-btn--normal--darkGrey": {
+        "default": {
+          "color": "#444",
+          "text-decoration": "none"
+        },
+        "hover": {
+          "text-decoration": "underline"
+        },
+        "visited": {
+          "color": "#444"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--normal--darkGrey"
+      },
+      "c-btn--rounded": {
+        "default": {
+          "border-radius": "8px"
+        },
+        "ruleCount": 1,
+        "exampleSelector": ".c-btn--rounded"
+      },
+      "c-btn--stroked--blue": {
+        "default": {
+          "border": "1px solid #031784",
+          "color": "#031784",
+          "padding": "9px 14px"
+        },
+        "hover": {
+          "background-color": "#ededed!important"
+        },
+        "visited": {
+          "color": "#031784"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--stroked--blue"
+      },
+      "c-btn--stroked--disabled--grey": {
+        "default": {
+          "border": "1px solid #999",
+          "color": "#595959",
+          "cursor": "not-allowed"
+        },
+        "visited": {
+          "color": "#595959"
+        },
+        "ruleCount": 2,
+        "exampleSelector": ".c-btn--stroked--disabled--grey"
+      },
+      "c-btn--stroked--grey": {
+        "default": {
+          "border": "1px solid #999",
+          "color": "#000",
+          "padding": "9px 14px"
+        },
+        "hover": {
+          "background-color": "#ededed!important"
+        },
+        "visited": {
+          "color": "#000"
+        },
+        "ruleCount": 3,
+        "exampleSelector": ".c-btn--stroked--grey"
+      }
+    }
+  },
+  "htmlButtons": [
+    [
+      "c-btn c-btn--basic",
+      9
+    ],
+    [
+      "c-btn c-btn--100 c-btn--basic c-btn--bold",
+      4
+    ],
+    [
+      "c-btn c-btn--100 c-btn--bold",
+      4
+    ],
+    [
+      "c-btn c-btn--basic c-btn--rounded",
+      3
+    ],
+    [
+      "c-btn c-btn--rounded c-btn--stroked--grey",
+      1
+    ],
+    [
+      "c-btn c-btn--100 c-btn--flat--blue c-btn--rounded",
+      1
+    ],
+    [
+      "c-btn c-btn--disabled c-btn--rounded",
+      1
+    ],
+    [
+      "c-btn c-btn--stroked--blue",
+      1
+    ],
+    [
+      "c-btn",
+      1
+    ],
+    [
+      "c-btn c-btn--flat--dark",
+      1
+    ]
+  ],
+  "totalRules": 133
+}
